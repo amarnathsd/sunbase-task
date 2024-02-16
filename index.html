@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Designer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <button onclick="addElement('input')">Add Input</button>
+            <button onclick="addElement('select')">Add Select</button>
+            <button onclick="addElement('textarea')">Add Textarea</button>
+        </div>
+        <div id="right-section" class="right-section">
+            <!-- Form elements will be added here dynamically -->
+        </div>
+    </div>
+    <button onclick="saveFormData()"  class="savebtn">Save</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    width: 200px;
+}
+
+.right-section {
+    flex-grow: 1;
+    min-height: 300px;
+    border: 2px dashed #ccc;
+    padding: 10px;
+
+
+
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.form-element {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.form-element input,
+.form-element select,
+.form-element textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+
+
+
+
+    
+}
+
+.form-element button {
+    background-color: #ed721a;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+.form-element button:hover {
+    background-color: #f3949d;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #fbc231;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #61a4eb;
+}
+
+
+.form-element button::before {
+    content: '\1F5D1'; /* Unicode for the trash box symbol (🗑️) */
+    font-family: 'Segoe UI', 'Arial', sans-serif; /* Specify a font that supports this Unicode character */
+}
+
+
+.form-element textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    min-height: 100px; /* Adjust the value as needed to ensure at least five lines */
+}
+
+
+
+
+
+
+button.savebtn {
+    background-color: #28a745;
+}
+
+button.savebtn:hover {
+    background-color: #218838;
+    
+}
+
